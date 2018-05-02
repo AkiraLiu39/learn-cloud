@@ -12,3 +12,9 @@ spring:
           searchPaths: config-server/src/main/resources/cloud-config
 #          username: your username
 #          password: your password
+
+#集群配置，注册eureka
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/

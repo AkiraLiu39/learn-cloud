@@ -9,7 +9,7 @@
     <packaging>jar</packaging>
 
     <name>feign-client</name>
-    <description>Demo project for Spring Boot</description>
+    <description>服务消费者 feign + hystrix断路器 demo</description>
 
     <parent>
         <groupId>org.springframework.boot</groupId>

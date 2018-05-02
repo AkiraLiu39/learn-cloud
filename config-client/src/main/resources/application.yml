@@ -1,0 +1,25 @@
+server:
+  port: 8881
+spring:
+  application:
+    name: config-client
+  cloud:
+    config:
+      label: master
+      #dev开发环境配置文件
+      #test测试环境
+      #pro正式环境
+      profile: dev
+#      集群配置时不需要指定configServerUri
+#      uri: http://localhost:8888/
+      discovery:
+#       从配置中心读取文件
+        enabled: true
+#       配置中心的servieId，即服务名
+        serviceId: config-server
+
+#集群配置，注册eureka
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
