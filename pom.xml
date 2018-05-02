@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.akira.demo</groupId>
-    <artifactId>spring-cloud</artifactId>
+    <artifactId>learn-spring-cloud</artifactId>
     <version>1.0-SNAPSHOT</version>
 
 

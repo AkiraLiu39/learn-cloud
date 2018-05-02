@@ -20,6 +20,7 @@ public class ServerRibbonApplication {
     public static void main(String[] args) {
         SpringApplication.run(ServerRibbonApplication.class, args);
     }
+
     @Bean
     @LoadBalanced
     RestTemplate restTemplate() {

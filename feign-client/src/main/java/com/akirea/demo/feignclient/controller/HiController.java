@@ -18,7 +18,8 @@ import org.springframework.web.bind.annotation.RestController;
 public class HiController {
     @Autowired
     FeignHiService hiService;
-    @RequestMapping(value = "/hi",method = RequestMethod.GET)
+
+    @RequestMapping(value = "/hi", method = RequestMethod.GET)
     public String sayHi(@RequestParam String name) {
         return hiService.sayHiFromClientOne(name);
     }
