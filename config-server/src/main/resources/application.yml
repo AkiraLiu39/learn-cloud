@@ -9,6 +9,6 @@ spring:
       server:
         git:
           uri: https://github.com/AkiraLiu39/learn-cloud/
-          searchPaths: config-server/src/main/resources
+          searchPaths: config-server/src/main/resources/cloud-config
 #          username: your username
 #          password: your password
